@@ -22,6 +22,9 @@ app.controller('goodsController' ,function($scope,$controller,$location,goodsSer
 			function(response){
 				$scope.entity= response;
                 editor.html($scope.entity.goodsDesc.introduction);
+                //显示图片列表
+                $scope.entity.goodsDesc.itemImages=
+                    JSON.parse($scope.entity.goodsDesc.itemImages);
                 //显示扩展属性
                 $scope.entity.goodsDesc.customAttributeItems=JSON.parse($scope.entity.goodsDesc.customAttributeItems);
                 //规格
