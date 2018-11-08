@@ -19,7 +19,7 @@ public class UploadController {
         String extName = originalFilename.substring(originalFilename.lastIndexOf("."));
         try {
             //获取FastDFS 的客户端
-            FastDFSClient fastDFSClient = new FastDFSClient("classpath:config/fdfs_client.conf");
+            FastDFSClient fastDFSClient = new FastDFSClient("classpath:properties/fdfs_client.conf");
             //上传并获得路径
             String path = fastDFSClient.uploadFile(file.getBytes(), extName);
             //拼接完整url
