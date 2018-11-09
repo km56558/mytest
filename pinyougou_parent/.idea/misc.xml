@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_portal_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_shop_web" />
   </component>
@@ -14,6 +16,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring_data_solr/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
