@@ -18,9 +18,6 @@
         </headers>
         <csrf disabled="true"/>
         <logout/>
-        
-
-        
     </http>
     <authentication-manager>
         <authentication-provider user-service-ref="userDetailsService">

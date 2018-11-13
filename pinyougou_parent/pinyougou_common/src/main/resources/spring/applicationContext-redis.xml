@@ -9,13 +9,13 @@
             <property name="maxWaitMillis" value="${redis.maxWaitMillis}"/>
             <property name="testOnBorrow" value="${redis.testOnBorrow}"/>
         </bean>
-    <bean class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" id="connectionFactory">
+    <bean class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" id="jedisConnectionFactory">
         <property name="hostName" value="${redis.host}"/>
         <!--<property name="password" value="{redis.pass}"/>-->
         <property name="port" value="${redis.port}"/>
         <property name="poolConfig" ref="poolConfig"/>
     </bean>
     <bean class="org.springframework.data.redis.core.RedisTemplate" id="redisTemplate">
-        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="connectionFactory" ref="jedisConnectionFactory"/>
     </bean>
 </beans>

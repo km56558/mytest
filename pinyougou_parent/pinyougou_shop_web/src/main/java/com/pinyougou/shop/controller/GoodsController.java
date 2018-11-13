@@ -6,6 +6,7 @@ import com.pinyougou.sellergoods.service.GoodsService;
 import com.pinyougou.vo.GoodsVo;
 import entity.PageResult;
 import entity.Result;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

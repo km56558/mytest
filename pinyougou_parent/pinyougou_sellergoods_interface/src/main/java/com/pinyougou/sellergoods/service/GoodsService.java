@@ -2,6 +2,7 @@ package com.pinyougou.sellergoods.service;
 import java.util.List;
 import com.pinyougou.pojo.TbGoods;
 
+import com.pinyougou.pojo.TbItem;
 import com.pinyougou.vo.GoodsVo;
 import entity.PageResult;
 import entity.Result;
@@ -58,4 +59,5 @@ public interface GoodsService {
 	public PageResult findPage(TbGoods goods, int pageNum, int pageSize);
 
     void updateStatus(Long[] ids, String status);
+	List<TbItem> findItemListByGoodsIdandStatus(Long[] goodsIds, String status);
 }

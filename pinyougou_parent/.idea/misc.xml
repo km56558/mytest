@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_common" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_page_web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_portal_web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_web" />
@@ -19,7 +21,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/freemarkerDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/jsmDemo/pom.xml" />
         <option value="$PROJECT_DIR$/spring_data_solr/pom.xml" />
+        <option value="$PROJECT_DIR$/springjms_consumer/pom.xml" />
       </set>
     </option>
   </component>
