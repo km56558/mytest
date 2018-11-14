@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/casclient_demo3" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_common" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_manager_web" />
@@ -12,6 +13,8 @@
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_user_web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +24,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/casclient_demo3/pom.xml" />
         <option value="$PROJECT_DIR$/freemarkerDemo/pom.xml" />
         <option value="$PROJECT_DIR$/jsmDemo/pom.xml" />
         <option value="$PROJECT_DIR$/spring_data_solr/pom.xml" />
